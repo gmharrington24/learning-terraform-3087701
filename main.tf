@@ -80,9 +80,7 @@ listeners = {
         status_code = "HTTP_301"
       }
     }
-      tags = {
-       Environment = "Development"
-    }
+      
     }
   }
 

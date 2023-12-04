@@ -78,9 +78,7 @@ http_tcp_listeners = [
       }
   ]
 
-tags = {
-  Environment = "Dev"
-}
+
 
     
   

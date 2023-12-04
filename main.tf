@@ -68,7 +68,7 @@ module "alb" {
    }
  }
 }
-  
+  }
 
 listeners = {
     ex-http-https-redirect = {

@@ -56,7 +56,7 @@ module "alb" {
   security_groups = module.blog_sg.security_group_id
 
   target_groups = 
-    {
+    
       name_prefix      = "blog"
       protocol         = "HTTP"
       port             = 80
@@ -67,7 +67,7 @@ module "alb" {
     port = 80
    }
  }
-}
+
 
 
 http_tcp_listeners = [
